@@ -89,4 +89,4 @@ Join ProjectPortfolio..CovidVaccinations vac
 On dea.location = vac.location
 and dea.date = vac.date
 where dea.continent is not null
---Order by 2, 3
+Order by 2, 3
