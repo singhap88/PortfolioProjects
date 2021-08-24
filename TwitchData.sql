@@ -1,3 +1,5 @@
+https://www.codecademy.com/paths/analyze-data-with-sql/tracks/sql-interview-prep/modules/sql-interview-prep/projects/analyze-data-with-sql-twitch
+
 -- Querying top 10 twitch channels by amount of watch and stream time, ordered by watch time
 SELECT top 10 channel, [Followers], [Stream time(minutes)], [Watch time(Minutes)]
 FROM ProjectPortfolio.dbo.twitchdata
