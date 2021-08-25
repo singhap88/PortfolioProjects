@@ -1,3 +1,5 @@
+https://www.codecademy.com/practice/projects/world-populations-sql-practice
+
 -- How many entries in the database are from Africa?
 
 SELECT COUNT(*) from countries where
