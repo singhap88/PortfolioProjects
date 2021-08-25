@@ -1,3 +1,5 @@
+https://www.codecademy.com/practice/projects/world-populations-sql-practice
+
 -- What years are covered by the dataset? 
 
 SELECT DISTINCT year FROM population_years;
@@ -20,7 +22,7 @@ SELECT DISTINCT country FROM population_years
 WHERE year = 2010
 AND population > 100;
 
--- How many countries in this dataset have the word “Islands” in their name?
+-- How many countries in this dataset have the word â€œIslandsâ€ in their name?
 
 SELECT DISTINCT country FROM population_years
 WHERE country like "%islands%";
